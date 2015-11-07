@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)digitPressed:(UIButton *)sender;
+- (IBAction)operandPressed:(UIButton *)sender;
+- (IBAction)utilitiesPressed:(UIButton *)sender;
+
+@property (strong, nonatomic) IBOutlet UILabel *resultLabel;
 
 
 @end
